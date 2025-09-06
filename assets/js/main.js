@@ -12,11 +12,11 @@ $(document).ready(function(){
     $('.featured_slider').slick({
         infinite: true,
         slidesToShow: 4,
-        centermode: true,
-        centerPadding: '0px',
+        autoplay: true,
+        autoplaySpeed: 2000,
         arrows: true,
-        prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+        nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
         slidesToScroll: 1,
         responsive: [
             {
