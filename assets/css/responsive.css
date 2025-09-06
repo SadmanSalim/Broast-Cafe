@@ -1,0 +1,28 @@
+@media(max-width: 991px){
+    .mobile-nav{
+        padding: 15px 0;
+    }
+    .banner_slider img{
+        height: 100%;
+      }
+    .banner_slider .slick-dots {
+        bottom: 5px;
+      }
+    .banner_slider .slick-dots li button {
+        width: 7px;
+        height: 7px;
+      }
+      #order_type {
+        padding: 30px 0;
+      }
+      #order_type .heading h3 {
+        font-size: 25px;
+      }
+      #order_type .order_type_button a{
+         padding: 10px 15px;
+         font-size: 12px;
+      }
+      #order_type .order_type_button{
+        margin: 10px 0;
+      }
+}

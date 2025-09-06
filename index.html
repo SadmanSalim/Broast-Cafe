@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broast Cafe</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    
+
+    <header>
+        <nav class="d-none d-lg-block  ">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="quick_links">
+                            <ul class="d-flex">
+                                <li><a class="active" href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Reviews</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href=""><img src="./assets/img/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="custom_btn text-end">
+                            <a href="">Order Now <iconify-icon icon="uil:cart"></iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="mobile-nav d-lg-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-4 text-start">
+                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                            <iconify-icon class="iconify-icon" icon="material-symbols:menu"></iconify-icon>
+                        </button>
+                    </div>
+                    <div class="col-4 mobile_logo text-center">
+                        <a href=""><img src="./assets/img/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+                    <div class="col-4 search_icon text-end">
+                        <a href="">
+                            <iconify-icon class="iconify-icon" icon="ri:search-line"></iconify-icon>
+                        </a>
+                    </div>
+            </div>
+        </nav>
+
+        <!-- off Canvas -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img class="img-fluid" src="./assets/img/logo.png" alt=""></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <div class="custom_btn mt-4 text-start">
+                    <a href="">Order Now <iconify-icon icon="uil:cart"></iconify-icon></a>
+                </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+        <!-- BANNER START HERE -->
+        <section id="hero_banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="banner_slider">
+                            <div>
+                                <img src="./assets/img/banner.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/img/banner-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/img/banner-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BANNER ENDS HERE -->
+
+        <!-- ORDER TYPE START HERE -->
+         <section id="order_type">
+            <div class="container">
+                <div class="heading">
+                    <h3>What’s Your <span>Plan</span> Today?</h3>
+                </div>
+                <div class="content text-center mt-lg-5 mt-2">
+                    <div class="row">
+                        <div class="col-lg-4 order_type_button col-6">
+                            <a href="">Delivery</a>
+                        </div>
+                        <div class="col-lg-4 order_type_button col-6">
+                            <a href="">Take Away</a>
+                        </div>
+                        <div class="col-lg-4 order_type_button col-12">
+                            <a href="">Dine In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- ORDER TYPE ENDS HERE -->
+
+        <!-- FEATURED MENU START HERE -->
+        <section id="featured_menu">
+            <div class="container">
+                <div class="heading">
+                    <img src="./assets/img/text-decorator.png" alt="text-decorator" class="img-fluid mb-3">
+                    <h3>Our <span>Featured Menu</span></h3>
+                </div>
+                <div class="content text-center mt-lg-5 mt-2">
+                    <div class="featured_slider">
+                        <div class="featured_items text-center">
+                            <a href=""><img src="./assets/img/product/product-1.png" class="img-fluid" alt="product"></a>
+                        </div>
+                        <div class="featured_items text-center">
+                            <a href=""><img src="./assets/img/product/product-2.png" class="img-fluid" alt="product"></a>
+                        </div>
+                        <div class="featured_items text-center">
+                            <a href=""><img src="./assets/img/product/product-3.png" class="img-fluid" alt="product"></a>
+                        </div>
+                        <div class="featured_items text-center">
+                            <a href=""><img src="./assets/img/product/product-4.png" class="img-fluid" alt="product"></a>
+                        </div>
+                        <div class="featured_items text-center">
+                            <a href=""><img src="./assets/img/product/product-1.png" class="img-fluid" alt="product"></a>
+                        </div>
+                    </div>
+                </div>
+        <!-- FEATURED MENU END HERE -->
+    </main>
+
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/iconify-icon.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
