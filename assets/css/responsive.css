@@ -51,6 +51,9 @@
       #top_bar p{
         font-size: 10px;
       }
+      #categorise_menu .heading{
+        margin-top: 50px;
+      }
       #categorise_menu .heading img{
         position: absolute;
         left: 60px !important;
