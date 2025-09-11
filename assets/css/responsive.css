@@ -98,4 +98,8 @@
       .btn-send {
         padding: 10px 150px;
       }
+      #menu .header .menu-category li a {
+        padding: 8px 10px;
+        font-size: 15px;
+      }
 }
