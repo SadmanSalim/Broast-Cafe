@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broast Cafe</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+
+    <header>
+        <!-- Top Bar Start Here -->
+        <section id="top_bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <p>Don't Miss Out on Our Daily Deals! Limited Time Offers.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social_links text-end d-none d-lg-block">
+                            <ul class="d-flex justify-content-end">
+                                <li><a href=""><iconify-icon class="iconify-icon"
+                                            icon="ri:facebook-fill"></iconify-icon></a></li>
+                                <li><a href=""><iconify-icon class="iconify-icon"
+                                            icon="ri:twitter-fill"></iconify-icon></a></li>
+                                <li><a href=""><iconify-icon class="iconify-icon"
+                                            icon="ri:instagram-fill"></iconify-icon></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Top Bar End Here -->
+
+
+
+        <nav class="d-none d-lg-block  ">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="quick_links">
+                            <ul class="d-flex">
+                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href=""><img src="./assets/img/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="custom_btn text-end">
+                            <a href="">Order Now <iconify-icon icon="uil:cart"></iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="mobile-nav d-lg-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-4 text-start">
+                        <button class="btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                            <iconify-icon class="iconify-icon" icon="material-symbols:menu"></iconify-icon>
+                        </button>
+                    </div>
+                    <div class="col-4 mobile_logo text-center">
+                        <a href=""><img src="./assets/img/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+                    <div class="col-4 search_icon text-end">
+                        <a href="">
+                            <iconify-icon class="iconify-icon" icon="ri:search-line"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+        </nav>
+
+        <!-- off Canvas -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img class="img-fluid"
+                        src="./assets/img/logo.png" alt=""></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <div class="custom_btn mt-4 text-start">
+                    <a href="">Order Now <iconify-icon icon="uil:cart"></iconify-icon></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container mt-lg-4" id="contact_us_page">
+                    
+            <div class="row align-content-center">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                      <h5>We’d love to hear from <span>you!</span>
+                    </span></h5>
+                      <p>Have questions, feedback, or a project idea? Fill out the form below and our team will get back to you as soon as possible.</p>
+                      <form>
+                        <div class="form-group mb-2">
+                          <label class="form-label" for="subject">Subject</label>
+                          <select class="form-control" id="subject">
+                            <option>Customer Service</option>
+                            <option>Technical Support</option>
+                            <option>General Inquiry</option>
+                          </select>
+                        </div>
+                        <div class="form-group mb-2">
+                          <label class="form-label" for="email">Email Address</label>
+                          <input type="email" class="form-control" id="email" placeholder="you@email.com">
+                        </div>
+                        <div class="form-group mb-2">
+                          <label class="form-label" for="message">Message</label>
+                          <textarea class="form-control" id="message" rows="5" placeholder="How can we help?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-send mb-3">SEND</button>
+                      </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="map">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9001385816!2d90.38838941445585!3d23.75087679459244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b854e2f598c5%3A0xb37b46f9d43ec2d0!2sBashundhara%20City%20Shopping%20Complex!5e0!3m2!1sen!2sbd!4v1584871977926!5m2!1sen!2sbd" width="100%" height="430" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="contact-info-page">
+                  <span class="iconify-icon contact_icon"><iconify-icon icon="mdi:map-marker"></iconify-icon></span>
+                  <p>Bashundhara City Shopping Complex,<br>Level-3, Block-C, Shop-44,<br>Panthapath, Dhaka</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-info-page">
+                  <span class="iconify-icon contact_icon"><iconify-icon icon="mdi:phone"></iconify-icon></span>
+                  <p>09609009000<br>01730-026240 | 01534-812877<br>01946-387916 | 01521-333355</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-info-page">
+                  <span class="iconify-icon contact_icon"><iconify-icon icon="mdi:email"></iconify-icon></span>
+                  <p>marknetbd@gmail.com<br>marknet.bcs@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+
+
+     <!-- footer Start here -->
+     <footer>
+        <div class="contianer-fluid" id="footer">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-lg-4 text-lg-start text-center left-row">
+                            <img src="./assets/img/logo-white.png" class="img-fluid" alt="logo">
+                            <p>Broast Café is supported by BROASTER, an American tradition since 1954. “Broasting” is a
+                                revolutionary method of preparing chicken, fish and meats by combining pressure cooking
+                                and deep frying concept.</p>
+                            <div class="social-links">
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 middle-row text-center">
+                            <h4>Important Links</h4>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Our Menus</a></li>
+                                <li><a href="">Blogs</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 right-row text-lg-end text-center">
+                            <!-- <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
+                                    style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 text-lg-start text-center">
+                                <p>Copyright <iconify-icon class="iconify-icon"
+                                        icon="ic:baseline-copyright"></iconify-icon>2025 Broast Cafe.All Rights
+                                    Reserved</p>
+                            </div>
+                            <div class="col-lg-6 col-12 text-lg-end text-center">
+                                <p>Developed By <a href="">Brand Boosters</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer End here -->
+
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/iconify-icon.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -60,7 +60,7 @@
         top: -18px;
       }
       #categorise_menu .card {
-        padding: 75px 15px;
+        padding: 40px 10px;
       }
       .grid {
         column-count: 2;
@@ -68,5 +68,34 @@
       }
       .grid .item:nth-child(n+6) {
         display: none;  
+      }
+      #login .card-content{
+        margin-left: 0;
+      }
+      #login .card-content .contents .form-group input{
+        width: 310px;
+      }
+      #login .card-content .contents .action_btns a{
+        padding: 10px 80px;
+      }
+      #login .card-content .contents .form-group label{
+        margin-left: 9%;
+      }
+      #menu .content .dish-card .dish-image a{
+        position: absolute;
+        right: 15px;
+        bottom: 40px;
+      }
+      #menu .content .dish-card .dish-details h4{
+        font-size: 18px;
+      }
+      #menu .content .dish-card .dish-details span{
+        font-size: 14px;
+      }
+      #menu .content .dish-card .dish-details p{
+        font-size: 14px;
+      }
+      .btn-send {
+        padding: 10px 150px;
       }
 }

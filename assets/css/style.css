@@ -494,3 +494,368 @@ header .offcanvas-body ul li {
 .slick-next:before {
   content: "";
 }
+
+
+
+/* !Login Page Csss */
+#login{
+  padding: 80px 0;
+  background: #f0f0f0;
+}
+
+#login .card-content{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* width: 480px;
+  height: 440px; */
+  margin-left: 60px;
+  background-image: #fff;
+}
+#login .card-content .heading img{
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+#login .card-content .heading h3{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+  margin-left: 10px;
+  text-align: center;
+}
+#login .card-content .heading p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #383838;
+  text-align: center;
+  margin-top: 5px;
+}
+#login .card-content .contents .form-group label{
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 11%;
+}
+#login .card-content .contents .form-group input{
+  width: 450px;
+  padding: 10px ;
+  border: 1px solid #000;
+  background: transparent;
+  border-radius: 5px;
+}
+
+#login .card-content .contents .login_btn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 100px;
+  background: var(--primary-color);
+  color: #fff;
+  font-family: var(--font-family);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+#login .card-content .contents .action_btns{
+  padding: 15px 0;
+}
+#login .card-content .contents .action_btns a{
+  padding: 10px 120px;
+  border: 1px solid #000;
+  font-family: var(--font-family);
+  color: #000;
+  border-radius: 5px;
+}
+#login .action_btns .coloring {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-right: 5px;
+}
+#login .action_btns span{
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
+
+/* !Menu Start Here */
+#menu .header h3 {
+  padding: 10px 0;
+  font-family: var(--second-family);
+  font-size: 35px;
+}
+#menu .header h3 span {
+  color: var(--primary-color);
+}
+
+.menu-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#menu .header .menu-category {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;     
+}
+#menu .header .menu-category::-webkit-scrollbar {
+  display: none; 
+}
+
+#menu .header .menu-category li {
+  flex: 0 0 auto;
+}
+
+#menu .header .menu-category li a {
+  font-family: var(--font-family);
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  white-space: nowrap;
+}
+#menu .header .menu-category li a.active {
+  color: #fff;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+#menu .header .menu-category li a:hover {
+  background: var(--primary-color);
+  color: #fff;
+  border: 1px solid var(--primary-color);
+}
+
+.scroll-btn {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+.scroll-btn.left {
+  left: -5px;
+}
+.scroll-btn.right {
+  right:-5px;
+}
+#menu .content .dish-card {
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 20px 10px 20px 0;
+  cursor: pointer;
+}
+
+#menu .content .dish-card .dish-details h4{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+}
+#menu .content .dish-card .dish-details span{
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-size: 15px;
+  margin: 15px 0;
+}
+#menu .content .dish-card .dish-details span del{
+  color: #585656;
+}
+#menu .content .dish-card .dish-details p{
+  font-family: var(--font-family);
+}
+#menu .content .dish-card .dish-image{
+  position: relative;
+}
+#menu .content .dish-card .dish-image img{
+  border-radius: 5px;
+}
+#menu .content .dish-card .dish-image a{
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+}
+#menu .content .dish-card .dish-image button{
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Modal Wrapper */
+.food-modal {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Close Button */
+.food-modal .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 30px;
+}
+
+/* Food Image */
+.food-img {
+  max-height: 280px;
+  object-fit: cover;
+}
+.food-modal .details h5,
+.food-modal .details h6
+{
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+.food-modal .details p{
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+/* Price */
+.price del {
+  font-family: var(--font-family);
+  margin: 0 6px;
+  color: #333;
+}
+
+/* Sticky Footer */
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+  padding: 12px 20px;
+  border-top: 1px solid #eee;
+}
+
+/* Quantity */
+.quantity-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.qty-btn {
+  background: #f5f5f5;
+  border: none;
+  padding: 8px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#qtyInput {
+  width: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+/* Add to Cart Button */
+.add-cart-btn {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.add-cart-btn:hover {
+  background: #fff;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* contact page css start */
+.contact-info-page {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  height: 150px;
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+}
+#contact_us_page .contact-form h5{
+  font-family: var(--second-family);
+  font-size: 40px;
+}
+#contact_us_page .contact-form h5 span{
+  color: var(--primary-color);
+}
+#contact_us_page .contact-form p{
+  font-family: var(--font-family);
+  margin-bottom: 20px;
+}
+#map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-send {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 280px;
+  border: none;
+  margin-top: 10px;
+}
+.btn-send:hover {
+  color: var(--primary-color);
+  background: #fff;
+  border: 1px solid var(--primary-color);
+}
+
+.contact-info-page{
+  position: relative;
+  margin-top: 30px;
+}
+.contact-info-page p{
+  margin-top: 20px;
+}
+.contact_icon {
+  position: absolute;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+}
+.contact-info-page:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
